@@ -186,8 +186,11 @@ main{
     grid-template-columns: 1fr;
     gap: 1rem;    
 }
+@media screen and (min-width:450px) {
+    .pokemon-todos{grid-template-columns: 1fr 1fr;  }
+}
 @media screen and (min-width:780px) {
-    .pokemon-todos{grid-template-columns: 1fr 1fr; }
+    .pokemon-todos{grid-template-columns: 1fr 1fr 1fr;  }
 }
 .pokemon{
     background-color: var(--clr-white);
