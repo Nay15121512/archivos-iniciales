@@ -8,7 +8,7 @@ const crearTabla = () => {
     table.innerHTML = `
         <thead>
             <tr>
-                <th>ID</th>
+                <th>Id</th>
                 <th>Imagen</th>
                 <th>Nombre</th>
                 <th>Tipos</th>
@@ -75,4 +75,5 @@ botonesHeader.forEach(boton => boton.addEventListener("click", (event) => {
                 }
             });
     }
+    
 }));
