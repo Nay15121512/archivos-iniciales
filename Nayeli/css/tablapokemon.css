@@ -191,3 +191,10 @@ th, td {
 th {
     background-color: var(--clr-gray);
 }
+.tipo {
+    border-radius: 1rem; /* Bordes redondeados */
+    padding: 0.25rem 0.5rem; /* Espaciado interno */
+    margin: 0.2rem; /* Espaciado externo */
+    color: var(--clr-white); /* Color de texto (cambiar según tipo si lo deseas) */
+    display: inline-block; /* Asegura que los tipos se comporten como bloques en línea */
+}
